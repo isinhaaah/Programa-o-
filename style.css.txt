@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.cabecalho-imagem{
+    width: 12%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;
+}
+.escola-imagem{
+    width: 50%;
+}
+.escola {
+    background: linear-gradient(to bottom, black, pink); /* Cor de fundo com gradiente linear */
+    color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+}
+
+.escola-div-conteudo{
+    width: 50%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
